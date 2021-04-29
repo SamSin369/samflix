@@ -9,14 +9,14 @@ export default function App() {
   return (
     <Router>
       <Switch>
-        {/* <IsUserRedirect
+        <IsUserRedirect
           user={user}
           loggedInPath={ROUTES.BROWSE}
           path={"/"}
           exact
         >
           <Home />
-        </IsUserRedirect> */}
+        </IsUserRedirect>
         <IsUserRedirect
           user={user}
           loggedInPath={ROUTES.BROWSE}
