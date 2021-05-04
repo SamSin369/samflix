@@ -219,6 +219,7 @@ export const Text = styled.p`
 
 export const Logo = styled.img`
   margin-right: 40px;
+  width: 50%;
 
   @media (min-width: 1449px) {
     background-size: 10px 10px;

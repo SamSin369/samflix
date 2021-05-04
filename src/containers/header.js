@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/header";
 import * as ROUTES from "../constants/index";
-import logo from "../logo.svg";
+import logo from "../Logo.svg";
 
 export default function HeaderContainer({ children }) {
   return (
